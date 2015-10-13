@@ -11,11 +11,20 @@ Upgrades I have completed on the Apple Mac Pro 1,1 in order to get it El Capitan
 - Boot from the new El Capitan drive in restore mode with cmd+R
 - Run terminal app
 - type csrutil disable; reboot
-- Once booted, fix permissions on boot.efi
-- Replace CoreServices and /User/boot/32 with the new [Boot.efi](http://forums.macrumors.com/threads/2006-2007-mac-pro-1-1-2-1-and-os-x-yosemite.1740775/page-65#post-20283936)
+- Once booted, download the postinstall.sh script
+- Run the script to fix permissions on boot.efi
+- The script will also Replace CoreServices and /User/boot/32 with the new [Boot.efi](http://forums.macrumors.com/threads/2006-2007-mac-pro-1-1-2-1-and-os-x-yosemite.1740775/page-65#post-20283936)
 
 ##Install Nvidia Drivers (If Needed)
-If you are planning on using newer Nvidia cards, make sure to download [the newest Nvidia driver](http://us.download.nvidia.com/Mac/Quadro_Certified/346.03.02f02/WebDriver-346.03.02f02.pkg)
+If you are planning on using newer Nvidia cards, make sure to download [the newest Nvidia driver](http://us.download.nvidia.com/Mac/Quadro_Certified/346.03.02f02/WebDriver-346.03.02f02.pkg). The postinstall.sh script does this by default. You may want to disable that functionality. 
+
+##Migrate the Drive
+- Shut down the computer you are using to make the drive
+- Insert the El Capitan drive in your Mac Pro 1,1 (2006)
+- Boot the Mac
+- You will hear it chime twice, this means you've done your job!
+- If all goes well, you'll see it boot
+- If you're using a PC graphics card, it might take 2 minutes to boot up to the login screen
 
 ##Useful Links
 - [Graphics cards](http://forums.macrumors.com/threads/mac-pro-1-1-10-9-2-tiamo-graphic-card-suggestions.1712192/)
