@@ -17,6 +17,7 @@ Replace CoreServices and /User/boot/32 with the new [Boot.efi](http://forums.mac
 ##Install Nvidia Drivers (If Needed)
 If you are planning on using newer Nvidia cards, make sure to download [the newest Nvidia driver](http://us.download.nvidia.com/Mac/Quadro_Certified/346.03.02f02/WebDriver-346.03.02f02.pkg)
 
+##Useful Links
 - [Graphics cards](http://forums.macrumors.com/threads/mac-pro-1-1-10-9-2-tiamo-graphic-card-suggestions.1712192/)
 - [List of Natively Supported Cards](http://forum.netkas.org/index.php/topic,2187.0.html)
 - [Mac Pro 1,1 to 2,1 Updater](http://www.xlr8yourmac.com/archives/sep11/091911.html)
