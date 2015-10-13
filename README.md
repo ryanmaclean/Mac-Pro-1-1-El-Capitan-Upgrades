@@ -8,11 +8,11 @@ Upgrades I have completed on the Apple Mac Pro 1,1 in order to get it El Capitan
 - Run the El Capitan installer and make sure to select the Mac Pro drive. 
 
 ##Prepare the New Drive
-Boot from the new El Capitan drive in restore mode with cmd+R
-Run terminal app
-type csrutil disable; reboot
-Once booted, fix permissions on boot.efi
-Replace CoreServices and /User/boot/32 with the new [Boot.efi](http://forums.macrumors.com/threads/2006-2007-mac-pro-1-1-2-1-and-os-x-yosemite.1740775/page-65#post-20283936)
+- Boot from the new El Capitan drive in restore mode with cmd+R
+- Run terminal app
+- type csrutil disable; reboot
+- Once booted, fix permissions on boot.efi
+- Replace CoreServices and /User/boot/32 with the new [Boot.efi](http://forums.macrumors.com/threads/2006-2007-mac-pro-1-1-2-1-and-os-x-yosemite.1740775/page-65#post-20283936)
 
 ##Install Nvidia Drivers (If Needed)
 If you are planning on using newer Nvidia cards, make sure to download [the newest Nvidia driver](http://us.download.nvidia.com/Mac/Quadro_Certified/346.03.02f02/WebDriver-346.03.02f02.pkg)
