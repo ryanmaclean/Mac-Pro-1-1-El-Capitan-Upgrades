@@ -24,5 +24,8 @@ If you are planning on using newer Nvidia cards, make sure to download [the newe
 - [RAM Installation](http://www.everymac.com/systems/apple/mac_pro/faq/mac-pro-how-to-upgrade-memory-what-type-ram.html)
 - [RAM from Komputerbay (x2 kits)](http://www.amazon.ca/Komputerbay-PC2-6400F-Buffered-Heatspreaders-PC2-6400/dp/B005HIWDFK/- ref=sr_1_6?s=electronics&ie=UTF8&qid=1444702729&sr=1-6)
 - [CPU Upgrade Info](http://www.xlr8yourmac.com/feedback/2006MacProDual5355CPUs.html)
+- [Intel Xeon X5365 LGA 771/Socket J (SLAED) 3 GHz CPU Processor](http://ark.intel.com/products/30702/Intel-Xeon-Processor-X5365-8M-Cache-3_00-GHz-1333-MHz-FSB)
+- [eBay Link to Combo Wifi + Bluetooth](http://www.ebay.com/itm/Genuine-Apple-Airport-WiFi-802-11ac-Bluetooth-4-0-w-Adapter-Mac-Pro-1-1-3-1-/261855902238?hash=item3cf7d3fa1e)
+- [MacVidCards Combo Card](http://www.macvidcards.com/store/p33/Wifi_AC_and_Bluetooth_Airport_Card.html)
 
 
