@@ -1,4 +1,4 @@
-# Mac-Pro-1-1-El-Capitan-Upgrades
+# Mac Pro 2006 1,1 El Capitan Upgrades
 Upgrades I have completed on the Apple Mac Pro 1,1 in order to get it El Capitan (OS X 10.11) ready along with code, scripts and links to products and utilities.
 
 ##Install El Capitan from Spare Mac
