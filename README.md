@@ -22,7 +22,6 @@ If you are planning on using newer Nvidia cards, make sure to download [the newe
 - [Mac Pro 1,1 to 2,1 Updater](http://www.xlr8yourmac.com/archives/sep11/091911.html)
 - [RAM Installation](http://www.everymac.com/systems/apple/mac_pro/faq/mac-pro-how-to-upgrade-memory-what-type-ram.html)
 - [RAM from Komputerbay (x2 kits)](http://www.amazon.ca/Komputerbay-PC2-6400F-Buffered-Heatspreaders-PC2-6400/dp/B005HIWDFK/- ref=sr_1_6?s=electronics&ie=UTF8&qid=1444702729&sr=1-6)
-- 
 - [CPU Upgrade Info](http://www.xlr8yourmac.com/feedback/2006MacProDual5355CPUs.html)
 
 
