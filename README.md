@@ -2,10 +2,10 @@
 Upgrades I have completed on the Apple Mac Pro 1,1 in order to get it El Capitan (OS X 10.11) ready along with code, scripts and links to products and utilities.
 
 ##Install El Capitan from Spare Mac
-1 Attach the Mac Pro boot drive to a Mac. 
-2 Download El Capitan from the App Store on this Mac.
-3 Run Disk Utility and wipe the destination drive, making sure to used GUID partition table. 
-4 Run the El Capitan installer and make sure to select the Mac Pro drive. 
+- Attach the Mac Pro boot drive to a Mac. 
+- Download El Capitan from the App Store on this Mac.
+- Run Disk Utility and wipe the destination drive, making sure to used GUID partition table. 
+- Run the El Capitan installer and make sure to select the Mac Pro drive. 
 
 ##Prepare the New Drive
 Boot from the new El Capitan drive in restore mode with cmd+R
