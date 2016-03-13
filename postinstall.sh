@@ -13,10 +13,10 @@ then
     #from within terminal in the recovery mode (cmd+R while booting)
     ##CoreServices Boot.efi
     sudo chflags nouchg /System/Library/CoreServices/boot.efi
-    sudo cp ~/boot.efi /System/Library/CoreServices/
+    sudo cp ./boot.efi /System/Library/CoreServices/
     sudo chflags uchg /System/Library/CoreServices/boot.efi
     ##Copy to /usr
-    sudo cp ~/boot.efi /usr/standalone/i386
+    sudo cp ./boot.efi /usr/standalone/i386
     ##To-Do: Copy to Recovery Partition
 else
     exit
