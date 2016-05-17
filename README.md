@@ -10,7 +10,7 @@ Upgrades I have completed on the Apple Mac Pro 1,1 in order to get it El Capitan
 ##Prepare the New Drive
 - Boot from the new El Capitan drive in restore mode with cmd+R
 - Run terminal app
-- type `csrutil disable; reboot` (this reboots the Mac, prepare accordingly)
+- type `csrutil disable; reboot` (this reboots the Mac)
 - Once booted, download the [post-install script](/postinstall.sh)
 - Run the script to fix permissions on boot.efi
 - The script will also Replace CoreServices and /User/boot/32 with the new [Boot.efi](http://forums.macrumors.com/threads/2006-2007-mac-pro-1-1-2-1-and-os-x-yosemite.1740775/page-65#post-20283936)
