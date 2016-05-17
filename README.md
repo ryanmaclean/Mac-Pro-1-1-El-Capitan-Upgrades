@@ -23,7 +23,7 @@ If you are planning on using newer Nvidia cards, make sure to download [the newe
 - Insert the El Capitan drive in your Mac Pro 1,1 (2006)
 - Boot the Mac
 - You will hear it chime twice, this means you've done your job!
-- If all goes well, you'll see it boot
+- If all goes well, you'll see it boot (if not, make sure you've used GUID partition type - this happened to me :) )
 - If you're using a PC graphics card, it might take 2 minutes to boot up to the login screen
 
 ##Useful Links
