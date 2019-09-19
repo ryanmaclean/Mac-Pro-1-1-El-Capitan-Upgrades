@@ -26,4 +26,4 @@ fi
 curl -O http://us.download.nvidia.com/Mac/Quadro_Certified/346.03.02f02/WebDriver-346.03.02f02.pkg
 
 #Install Nvidia Driver
-sudo installer -pkg *.pkg -target /
+sudo installer -pkg WebDriver-346.03.02f02.pkg -target /
