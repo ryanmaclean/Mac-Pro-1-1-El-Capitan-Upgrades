@@ -9,7 +9,7 @@ Upgrades I have completed on the Apple Mac Pro 1,1 in order to get it El Capitan
 - Make sure to select the Mac Pro drive when installing El Capitan. 
 
 ## Prepare the New Drive
-- once installed, hold option while booting again, hold S down when pressing on the recovery partition
+- once installed and working, hold command + S (or windows key + s) and power on the machine, you should see a terminal. this is single user mode.
 - type `csrutil disable; reboot`
 - Once booted, download the [post-install script](/postinstall.sh)
 - open terminal, cd to the directory where the script is downloaded to and type `sudo ./postinstall.sh`
