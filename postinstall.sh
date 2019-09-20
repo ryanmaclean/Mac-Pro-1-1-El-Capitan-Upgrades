@@ -1,29 +1,33 @@
 #!/bin/bash
-echo "WARNING, THIS SCRIPT IS MEANT TO RUN ON THE DISK YOU INSTALLED TO, BUT NOT ON THE MAC PRO 1,1"
-echo "IN ANY OTHER SITUATION, DO NOT PROCEED"
 
-#Grabbed this snippet from here: http://stackoverflow.com/questions/3231804/in-bash-how-to-add-are-you-sure-y-n-to-any-command-or-alias
-read -r -p "Continue making this disk unbootable on this system? [y/N] " response
-if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]
-then
-    #Get black version of EFI boot file
-    curl -o myfile.zip http://forums.macrumors.com/attachments/boot-black-zip.511172/ ; unzip myfile.zip; rm myfile.zip
-    #Install Boot.efi
-    #NOTE: You will Need to Have Disabled SIP Using csrutil disable; reboot
-    #from within terminal in the recovery mode (cmd+R while booting)
-    ##CoreServices Boot.efi
-    sudo chflags nouchg /System/Library/CoreServices/boot.efi
-    sudo cp ./boot.efi /System/Library/CoreServices/
-    sudo chflags uchg /System/Library/CoreServices/boot.efi
-    ##Copy to /usr
-    sudo cp ./boot.efi /usr/standalone/i386
-    ##To-Do: Copy to Recovery Partition
-else
-    exit
-fi
+echo “### DO NOT RUN ON THE MAC PRO, RUN ON THE MACHINE YOU INSTALLED EL CAPITAN WITH ###”
+echo “### THIS MACHINE WILL NO LONGER BE ABLE TO BOOT TO THE DESTINATION DRIVE ###”
 
-#Get Nvidia Driver
-curl -O http://us.download.nvidia.com/Mac/Quadro_Certified/346.03.02f02/WebDriver-346.03.02f02.pkg
+# Install the boot.efi to their required places
+echo “  “
+echo “### INSTALLING PIKES BOOT.EFI ###”
+echo “  “
+cd /
+echo “Downloading”
+curl -o boot.efi https://raw.githubusercontent.com/Piker-Alpha/macosxbootloader/El-Capitan/Prebuilt/boot_grey.efi
+echo “installing”
+chflags nouchg /System/Library/CoreServices/boot.efi
+cp /boot.efi /System/Library/CoreServices/
+cp /boot.efi /usr/standalone/i386
+rm /boot.efi
+echo “Done.”
 
-#Install Nvidia Driver
-sudo installer -pkg WebDriver-346.03.02f02.pkg -target /
+
+# Install nvidia web drivers
+echo “  “
+echo “### INSTALLING NVIDIA WEB DRIVERS ###”
+echo “  “
+echo “Downloading”
+curl -O http://us.download.nvidia.com/Mac/Quadro_Certified/346.03.15f01/WebDriver-346.03.15f01.pkg
+echo “Installing”
+installer -allowUntrusted -pkg WebDriver-346.03.15f01.pkg -target /
+rm WebDriver-346.03.15f01.pkg
+echo “Done.”
+echo “Do not reboot if you have extra configurating to do, however this script has completed the main and most important parts”
+echo “If you are using an ATI/AMD gpu, move the drive to the new system and uninstall the Nvidia web drivers”
+echo “If you are done, move this drive to the Mac Pro”
