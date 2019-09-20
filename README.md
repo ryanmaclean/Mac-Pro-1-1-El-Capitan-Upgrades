@@ -12,6 +12,7 @@ Upgrades I have completed on the Apple Mac Pro 1,1 in order to get it El Capitan
 - once installed, hold option while booting again, hold S down when pressing on the recovery partition
 - type `csrutil disable; reboot`
 - Once booted, download the [post-install script](/postinstall.sh)
+- open terminal, cd to the directory where the script is downloaded to and type `sudo ./postinstall.sh`
 - This script will install the required boot.efi files and the nvidia web drivers, if you do not need the nvidia web drivers then you can uninstall them later
 
 ## Migrate the Drive
