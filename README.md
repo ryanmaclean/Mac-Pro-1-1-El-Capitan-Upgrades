@@ -23,7 +23,7 @@ Upgrades I have completed on the Apple Mac Pro 1,1 in order to get it El Capitan
 - If the mac boots up fine first try, thats good.
 - If you're using a PC-flashed graphics card, you will not see any image until the mac reaches the login screen. 
 
-##Useful Links
+## Useful Links
 - [Graphics cards](http://forums.macrumors.com/threads/mac-pro-1-1-10-9-2-tiamo-graphic-card-suggestions.1712192/)
 - [List of Natively Supported Cards](http://forum.netkas.org/index.php/topic,2187.0.html)
 - [Mac Pro 1,1 to 2,1 Updater](http://www.xlr8yourmac.com/archives/sep11/091911.html)
