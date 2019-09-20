@@ -1,30 +1,26 @@
 # Mac Pro 2006 1,1 El Capitan Upgrades
 Upgrades I have completed on the Apple Mac Pro 1,1 in order to get it El Capitan (OS X 10.11) ready along with code, scripts and links to products and utilities.
 
-##Install El Capitan from Spare Mac
+## Install El Capitan from Spare Mac
 - Attach the Mac Pro boot drive to a Mac. 
 - Download El Capitan from the App Store on this Mac.
 - Run Disk Utility and wipe the destination drive, making sure to used GUID partition table. 
-- Run the El Capitan installer and make sure to select the Mac Pro drive. 
+- Power off the mac, Power off while holding option and run the El Capitan installer.
+- Make sure to select the Mac Pro drive when installing El Capitan. 
 
-##Prepare the New Drive
-- Boot from the new El Capitan drive in restore mode with cmd+R
-- Run terminal app
-- type `csrutil disable; reboot` (this reboots the Mac)
+## Prepare the New Drive
+- once installed, hold option while booting again, hold S down when pressing on the recovery partition
+- type `csrutil disable; reboot`
 - Once booted, download the [post-install script](/postinstall.sh)
-- Run the script to fix permissions on boot.efi
-- The script will also Replace CoreServices and /User/boot/32 with the new [Boot.efi](http://forums.macrumors.com/threads/2006-2007-mac-pro-1-1-2-1-and-os-x-yosemite.1740775/page-65#post-20283936)
+- This script will install the required boot.efi files and the nvidia web drivers, if you do not need the nvidia web drivers then you can uninstall them later
 
-##Install Nvidia Drivers (If Needed)
-If you are planning on using newer Nvidia cards, make sure to download [the newest Nvidia driver](http://us.download.nvidia.com/Mac/Quadro_Certified/346.03.02f02/WebDriver-346.03.02f02.pkg). The postinstall.sh script does this by default. You may want to disable that functionality. 
-
-##Migrate the Drive
+## Migrate the Drive
 - Shut down the computer you are using to make the drive
 - Insert the El Capitan drive in your Mac Pro 1,1 (2006)
-- Boot the Mac
-- You will hear it chime twice, this means you've done your job!
-- If all goes well, you'll see it boot (if not, make sure you've used GUID partition type - this happened to me :) )
-- If you're using a PC graphics card, it might take 2 minutes to boot up to the login screen
+- Try booting the mac
+- If the mac stays on a grey screen and nothing else, this is most likely fine. hold option and select the El Capitan drive, the startup disc is not set, this can be set once you boot.
+- If the mac boots up fine first try, thats good.
+- If you're using a PC-flashed graphics card, you will not see any image until the mac reaches the login screen. 
 
 ##Useful Links
 - [Graphics cards](http://forums.macrumors.com/threads/mac-pro-1-1-10-9-2-tiamo-graphic-card-suggestions.1712192/)
