@@ -1,4 +1,4 @@
-# NO LONGER BEING UPDATES
+# NO LONGER BEING UPDATED
 I've unfortunately gotten rid of my trusty Mac Pro 1,1, and therefore this repo will no longer be updated. 
 
 # Mac Pro 2006 1,1 El Capitan Upgrades
